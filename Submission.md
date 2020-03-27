@@ -40,6 +40,7 @@ In [network file](private-network.yml) you'll be able to find :
 * Gateway
 * NAT
 * RouteTable
+
 (Parameters are available in [specific file](private-network-parameters.json))
 
 Because some information created in network step will be used in server step, 
@@ -53,6 +54,7 @@ In [server file](servers.yml) you'll be able to find :
 * Security Group
 * Listener
 * Target Group
+
 (Parameters are available in [specific file](servers-parameters.json))
 
 The only output I'll be using in the server step, is the URI which whom you'll 
